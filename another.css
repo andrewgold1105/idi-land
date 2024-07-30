@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(halfmoon3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: crimson;
+}
+@media (max-width:991px){
+    .sidebar{
+        background-color:rgba(225, 225, 225, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
